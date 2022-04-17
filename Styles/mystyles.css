@@ -1,8 +1,73 @@
 
-/* Walter Iverson 4/6/2022 */
+/* Walter Iverson 4/16/2022 */
 body{
     background-color: aliceblue;
 }
 
+.unordered-list {
+  list-style-type: none;
+  margin: 100;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+.menu{
+  float:right;
+}
 
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.emphasis {
+  font-style: italic;
+  font-weight: 600;
+}
+.underline{
+  text-decoration: underline;
+}
+
+.my-hr-line {
+  position: relative;
+  left: -15px;
+  width: calc(100% + 30px);
+  height: 2px;
+  border: 2px solid black;
+}
+
+.heading{
+  font-weight: bolder;
+  font-size: 1.35pc;
+}
+.subheading{
+  font-weight:bold;
+  font-style: italic;
+}
+
+.font{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.footer{
+  font-style: italic;
+}
+
+.caption{
+  font-size: 1.5pc;
+}
+.size{
+  resize: both;
+}
   /*  */
